@@ -11,8 +11,10 @@ import com.example.demo.Adapter.PostAdapter
 import com.example.demo.Util.ApiState
 import com.example.demo.ViewModel.MainViewModel
 import com.example.demo.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var postAdapter: PostAdapter
